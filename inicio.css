@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+body{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+    margin-top: -35px;
+}
+
+header{
+    
+    background-color: #272829;
+    color: white;
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#logoHeader{
+    text-shadow: 0px 0px 10px rgb(181, 174, 174);
+    font-size: 50px;
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 100;
+}
+
+
+#subtitulo{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 10px;
+    margin-top:-30px;
+    margin-left: 08px;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+    display: inline;
+    
+
+}
+
+nav a{
+    color: black;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 284.7px;
+    
+
+    
+}
+
+nav a:hover{
+    background-color: orange;
+    
+}
+
+
+
+
+.sessaoImg{
+    background-color: black;
+}
+.imgMoto{
+    width: 51%;
+    margin: auto;
+    display: block;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+        
+   
+}
+.proposito{
+    padding-top: 0.5rem;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #272829 ;
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    width: 99.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.titulosDasSecoes{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.texts{
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;   
+}
+
+.sesHistoria{
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    font-size: 19px;
+    width: 450px;
+    height: 300px;
+    background-color: #e8e8e8;
+    float: left;
+    border: 1px solid #272829;    
+    margin-left: 12.5%;
+    margin-top: 20px;
+}
+
+.imgNaDireita{
+    width: 450px;
+    margin-left: 8%;
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    margin-top: 20px;  
+}
+.imgNaEsquerda{
+    width: 450px;
+    margin-left: 12.5%;
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    margin-top: 20px;  
+}
+.sesnoticias{
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    font-size: 19px;
+    width: 450px;
+    height: 300px;
+    background-color: #e8e8e8;
+    float: right;
+    border: 1px solid #272829;    
+    margin-right: 12.5%;
+    margin-top: 20px;
+}
+
+.sesmotoCarro{
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    font-size: 19px;
+    width: 450px;
+    height: 300px;
+    background-color: #e8e8e8;
+    float: left;
+    border: 1px solid #272829;    
+    margin-left: 12.5%;
+    margin-top: 20px;
+}
+
+.sesdivulgacao{
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    font-size: 19px;
+    width: 450px;
+    height: 300px;
+    background-color: #e8e8e8;
+    float: right;
+    border: 1px solid #272829;    
+    margin-right: 12.5%;
+    margin-top: 20px;
+
+}
+
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: #272829;
+    float:right;
+}
+#todasimgredessociais{
+    float: right;
+    margin-top: -60px;
+    margin-right: 180px;
+}
+.imgredessociais{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+#logoFooter{
+    color: white;
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+.tagsFooter{
+    float: left;
+    color: white;
+    margin-left: 90px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.tagsFooter:hover{
+    color: #dd962c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#conjAssinatura{
+    background-color: #272829;
+    font-size: 30px;
+}
+.assinatura{
+    margin-top: 100px;
+    text-shadow: 0px 0px 10px rgb(41, 41, 42);
+    font-family: 'Allura', cursive;
+    float: left;
+    margin: auto;
+    margin-left: 200px;
+    color: white;
+}

@@ -1,0 +1,83 @@
+body{
+    height: 900px;
+}
+main{
+    width: 100%;
+    height: 570px;
+    background-image: linear-gradient(to left,rgb(75, 75, 75),rgb(80, 80, 80), rgb(63, 59, 59));
+    font-family:Arial, Helvetica, sans-serif;
+}
+.box{
+    color: white;
+    width: 40%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+}
+fieldset{
+    border: 3px solid orange;
+}
+legend{
+    border: 1px solid orange;
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 8px;
+}
+.inputbox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color:white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;   
+}
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: orange;
+}
+#data_nasc{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#botao{
+    background-image: linear-gradient(to left,#e99832, #ffc80e,#ffa600);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#todasimgredessociais{
+    float: right;
+    margin-top: -60px;
+    margin-right: 180px;
+}
+.imgredessociais{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: auto;
+}

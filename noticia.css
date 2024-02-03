@@ -1,0 +1,40 @@
+
+
+.noticia img{
+	width: 600px;
+	box-shadow: 10px 5px 5px gray;
+	margin-left: 75px;
+}
+
+.noticia{
+	font-family: verdana;
+	margin-left: 250px;
+	width: 780px;
+	height: auto;	
+}
+.noticia h1{
+	text-align: justify;
+
+}
+.noticia h2{
+	text-align: justify;
+color: 	#363636;
+
+}
+.noticia p{
+	font-family: verdana;
+	text-align: justify;
+	line-height: 30px;
+}
+
+
+#todasimgredessociais{
+    float: right;
+    margin-top: -60px;
+    margin-right: 180px;
+}
+.imgredessociais{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: auto;
+}
